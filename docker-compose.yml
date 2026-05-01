@@ -1,0 +1,11 @@
+services:
+  github-readme-stats:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: github-readme-stats
+    ports:
+      - "${PORT:-9000}:9000"
+    env_file:
+      - .env.docker
+    restart: unless-stopped

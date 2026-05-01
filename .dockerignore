@@ -1,0 +1,16 @@
+.git
+.github
+.husky
+.idea
+.vscode
+.vercel
+node_modules
+coverage
+benchmarks
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+*.code-workspace
